@@ -1,0 +1,11 @@
+{
+  "student_id": "6604101360",
+  "name": "พีรภาส มะณีดวงฤทธิ์",
+  "github_repo": "https://github.com/Peeraphat66360/Peeraphat-Maneeduangrit-6604101360-06-03-2026.git",
+  "backend_base_url": "https://peeraphat-maneeduangrit-6604101360-06-03.onrender.com",
+  "frontend_url": "https://peeraphat-maneeduangrit-6604101360-06.netlify.app/#/",
+  "api": {
+    "health": "https://peeraphat-maneeduangrit-6604101360-06-03.onrender.com/api/health",
+    "tasks": "https://peeraphat-maneeduangrit-6604101360-06-03.onrender.com/api/tasks"
+  }
+}
