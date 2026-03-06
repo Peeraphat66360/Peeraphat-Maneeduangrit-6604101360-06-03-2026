@@ -55,6 +55,10 @@ app.get('/', (_req, res) => {
 // Task API (Lab 2.1)
 app.use('/api/tasks', taskRoutes);
 
+app.get('/api/health', (req, res) => {
+  res.json({ ok: true });
+});
+
 // ✅ fallback 404 สำหรับทุก route ที่ไม่ match
 app.use((req, res) => {
   res.status(404).json({
@@ -62,6 +66,8 @@ app.use((req, res) => {
     path: req.originalUrl,
   });
 });
+
+
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
